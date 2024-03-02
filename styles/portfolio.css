@@ -1,3 +1,41 @@
+@font-face {
+    font-family: Masconia;
+    src: local("Masconia"), local("Masconia"),
+        url(./Masconia-w1RrZ.otf);
+}
+
+:root {
+    --branding-color: #E3BDA8;
+    --secondary-color: #A45A45; 
+}
+
+.hero{
+    background: var(--branding-color);
+    text-align: left;
+    padding: 100px 20px;
+}
+
+.hero h3,h4 {
+    font-weight: bold;
+}
+
+h1,h2,h3,h4,h5,p {
+    color: var(--secondary-color);
+}
+
+h1 {
+    font-size: 120px;
+}
+
+.btn-branding{
+    background: var(--secondary-color);
+    color: var(--branding-color);
+    border-radius: 2px;
+    padding: 15px 30px;
+    font-size: 24px;
+}
+
 body {
-    font-family: var(--font-family);
+    font-family: Masconia;
+    background-color: var(--branding-color);
 }
