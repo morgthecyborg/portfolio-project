@@ -9,26 +9,56 @@
         font-size: 3rem;
         margin-left: 40px;
     }
+    .navbar-toggler {
+        margin-right: 40px;
+    }
+    .container {
+        margin: 0px 50px 0px 50px;
+        overflow: hidden;
+        word-wrap: break-word;
+    }
     body {
         padding: px 60px;
+        overflow: hidden;
+    }
+    h1 {
+        font-size: 85px;
     }
 }
 
 @media (min-width: 900px) {
     .navbar-brand {
-            font-size: 3rem;
-            margin-left:40px;
-        }
+        font-size: 3rem;
+        margin-left:40px;
+    }
+    .navbar-toggler {
+        margin-right: 40px;
+    }
     .nav-link {
-            font-size: 1.25rem;
-            margin: 20px;
-        }
+        font-size: 1.25rem;
+        margin: 20px;
+    }
     .navbar-nav {
         margin-right: 30px;
+    }
+    .hero {
+        margin: 0px 150px 0px 150px;
     }
     body {
         padding: px 100px;
     }
+    h1 {
+        font-size: 120px;
+    }
+}
+
+.navbar {
+    --bs-navbar-toggler-padding-y: 0;
+    --bs-navbar-toggler-padding-x: 0;
+    --bs-navbar-toggler-font-size: 1.5rem;
+    --bs-navbar-toggler-border-color: none;
+    --bs-navbar-toggler-border-radius: 0;
+    --bs-navbar-toggler-focus-width: 0;
 }
 
 .navbar-brand {
@@ -39,11 +69,17 @@
     color: var(--secondary-color);
 }
 
+.navbar-toggler {
+    color: var(--secondary-color);
+    border: none;
+    outline: none!important;
+    box-shadow: none;
+}
+
 .hero {
     background: var(--branding-color);
     text-align: left;
     padding-top: 200px;
-    margin: 0px 150px 0px 150px;
 }
 
 .hero h3,h4 {
@@ -52,10 +88,6 @@
 
 h1,h2,h3,h4,h5,p {
     color: var(--secondary-color);
-}
-
-h1 {
-    font-size: 120px;
 }
 
 .btn-branding {
