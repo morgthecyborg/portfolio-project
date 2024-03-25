@@ -152,8 +152,8 @@ p,ul,ol {
     font-family: var(--secondary-font-family);
 }
 
-.row {
-    margin-top: 150px;
+#project-rows,#about-row {
+    margin: 150px 75px 0px 75px;
 }
 
 .btn-branding {
