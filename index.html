@@ -19,7 +19,7 @@
     <link href="https://fonts.cdnfonts.com/css/masconia" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg" style="background-color: E3BDA8;">
+    <nav class="navbar fixed-top navbar-expand-lg">
         <a class="navbar-brand" href="/">M</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#work">Work</a>
+                    <a class="nav-link" href="#projects">Work</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#contact">Contact</a>
@@ -40,14 +40,70 @@
             </ul>
         </div>
     </nav>
-    <div class="container hero">
+    <div class="container hero" id="/">
         <h3>Hi, my name is</h3>
         <h1>Morgan Sanchez</h1>
         <h4>Front End Developer based in Saint Paul, MN, USA</h4>
-        <a href="#contact" class="btn btn-branding">Contact me</a>
+        <a href="#contact" class="btn btn-branding">CONTACT ME</a>
     </div>
-    <div>
-
+    <div class="container" id="about">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About me</h2>
+                <p>Hello! My name is Morgan Sanchez and I am a self-taught Front End Developer. I graduated with a Bachelor of Science
+                    in Computer Science from the University of Phoenix in 2021. I offer a strong academic background in IT combined with
+                    strong systems skills and exceptional customer service experience. Dedicated to operational integrity, service excellence, and responsible
+                    stewardship.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="/images/morgansanchez.jpg" id="self-image" alt="Portrait image of Morgan Sanchez">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="projects">
+        <div class="row">
+            <div class="col-md-6">
+            <img class="align-self-start mr-3" src="/images/weather-app.png" id="project-images" alt="Screen capture image of Morgan's weather app">
+            </div>
+            <div class="col-md-6">
+                <h3>Weather App</h3>
+                <p>This <em>Gilmore Girls</em>-themed weather app features a weekly outlook for cities typed into the search bar
+                    using OpenWeather API.</p>
+                <p>Tech used:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>API</li>
+                    <li>Github</li>
+                    <li>Hosting with Netlify</li>
+                </ul>
+                <a href="" class="btn btn-branding">Open app</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <h3>National Park App</h3>
+                <p>This was my first coding project through SheCodes coding courses. This site is about the island in Lake Superior and national park, Isle Royale.</p>
+                <p>Tech used:</p>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+                <a href="" class="btn btn-branding">Open app</a>
+            </div>
+            <div class="col-md-6">
+            <img class="ml-3" src="/images/isle-royale-app.png" id="project-images" alt="Screen capture image of Morgan's Isle Royale National Park app">
+            </div>
+        </div>
+    </div>
+    <div class="container" id="contact">
+        <h2>Contact me</h2>
+        <p>Have questions or inquiries?</p>
+        <a href="mailto:sanchmor@yahoo.com" class="btn btn-branding">Email me</a>
     </div>
 </body>
+<footer>
+</footer>
 </html>
