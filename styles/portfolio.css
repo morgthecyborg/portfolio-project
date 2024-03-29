@@ -3,6 +3,7 @@
     --secondary-color: #A45A45; 
     --font-family: 'Masconia', sans-serif;
     --secondary-font-family: 'Avenir Next';
+    --bs-border-color: #A45A45;
 }
 
 @media (max-width: 900px) {
@@ -64,17 +65,17 @@
     .hero {
         margin: 0px 75px 0px 75px;
     }
-    body {
-        margin: 0x 30px 0px 30px;
-    }
     h1 {
         font-size: 120px;
     }
     h2 {
         font-size: 75px;
     }
+    li {
+        margin-right: 30px;
+    }
     .container {
-        margin: 200px 120px 30px 120px;
+        margin-top: 175px;
     }
     #self-image {
         height: 500px;
@@ -87,8 +88,9 @@
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
     }
-    #projects {
-        margin: 0px 120px 100px 120px;
+    #project-rows,
+    #about-row {
+        margin: 150px 75px 0px 75px;
     }
     #project-images {
         height: 275px;
@@ -146,14 +148,24 @@ h1,h2,h3,h4,h5 {
     font-family: var(--font-family);
 }
 
-p,ul,ol {
+p {
     font-size: 17px;
+}
+
+p,ul,ol,span,li {
     color: var(--secondary-color);
     font-family: var(--secondary-font-family);
 }
 
-#project-rows,#about-row {
-    margin: 150px 75px 0px 75px;
+ul,li,ol {
+    display: inline;
+    font-size: 45px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding-left: 0;
 }
 
 .btn-branding {
