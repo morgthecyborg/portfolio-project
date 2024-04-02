@@ -143,6 +143,10 @@ nav {
     font-weight: bold;
 }
 
+#about,#projects,#contact {
+    scroll-margin-top: 100px;
+}
+
 h1,h2,h3,h4,h5 {
     color: var(--secondary-color);
     font-family: var(--font-family);
@@ -152,7 +156,7 @@ p {
     font-size: 17px;
 }
 
-p,ul,ol,span,li {
+p,ul,ol,span,li,a {
     color: var(--secondary-color);
     font-family: var(--secondary-font-family);
 }
@@ -168,13 +172,19 @@ ul {
     padding-left: 0;
 }
 
+#socials {
+    display: inline;
+    font-size: 25px;
+    margin: 5px;
+}
+
 .btn-branding {
     background: var(--secondary-color);
     color: var(--branding-color);
     border-radius: .5rem;
     padding: 12px 25px;
     font-size: 17px;
-    margin-top: 20px 2px;
+    margin: 30px 2px;
 }
 
 #contact {
