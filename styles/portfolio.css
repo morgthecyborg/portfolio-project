@@ -14,35 +14,57 @@
     .navbar-toggler {
         margin-right: 40px;
     }
+    #hero {
+        margin-top: 150px;
+        text-align: center;
+    }
     .container {
-        margin: 0px 50px 0px 25px;
+        margin-top: 75px;
         overflow: hidden;
         word-wrap: break-word;
+        text-align: center;
     }
     body {
         margin: 0px 30px 0px 30px;
     }
     h1 {
         font-size: 75px;
-        margin-right: 30px;
     }
-    h4 {
-        margin-right: 30px;
+    h2 {
+        font-size: 35px;
+    }
+    h3 {
+        font-size: 25px;
+    }
+    /* .btn-branding {
+        align-items: center;
+    } */
+    svg {
+        display: none;
+    }
+    img {
+        display: none;
     }
     #self-image {
-        height: 300px;
-        width: 215px;
-        border-color: #A45A45;
-        border-style: solid;
+        padding-top: 30px;
+        height: 330px;
+        width: 200px;
         border-top-left-radius: 300px;
         border-top-right-radius: 300px;
         border-bottom-left-radius: 25px;
         border-bottom-right-radius: 25px;
     }
+    #park-app {
+        margin-top: 50px;
+    }
     #project-images {
         height: 200px;
         width: 400px;
         border-radius: 1rem;
+    }
+    ul {
+        margin-bottom: 0px;
+        display: block;
     }
 }
 
@@ -63,6 +85,7 @@
     }
     .hero {
         margin: 0px 75px 0px 75px;
+        text-align: left;
     }
     h1 {
         font-size: 120px;
@@ -72,12 +95,17 @@
     }
     ul{
         margin-bottom: 0;
+        display: flex;
     }
     li {
         margin-right: 30px;
     }
+    svg {
+        width: 97px;
+        height: 105px;
+    }
     .container {
-        margin-top: 175px;
+        margin-top: 125px;
     }
     #self-image {
         height: 500px;
@@ -125,6 +153,10 @@ nav {
     --bs-navbar-toggler-focus-width: 0;
 }
 
+.navbar-nav:hover {
+    color: var(--bs-border-color) !important;
+}
+
 .navbar-brand {
     color: var(--secondary-color);
     font-family: var(--font-family);
@@ -143,7 +175,6 @@ nav {
 
 .hero {
     background: var(--branding-color);
-    text-align: left;
 }
 
 .hero h3,h4 {
@@ -175,7 +206,6 @@ ul,li,ol {
 
 ul {
     list-style: none;
-    display: flex;
     padding-left: 0;
 }
 
@@ -186,6 +216,19 @@ ul {
     padding: 12px 25px;
     font-size: 17px;
     margin: 20px 2px;
+}
+
+.btn-branding:hover {
+    background-color: var(--branding-color);
+    border: var(--bs-border-color);
+    border-style: solid;
+    color: var(--secondary-color);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.shadow-effects:hover {
+    transition: box-shadow 0.3s ease-in-out;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #contact {
