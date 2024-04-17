@@ -6,7 +6,7 @@
     --bs-border-color: #A45A45;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 786px) {
     .navbar-brand {
         font-size: 3rem;
         margin-left: 40px;
@@ -68,7 +68,7 @@
     }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 786px) {
     .navbar-brand {
         font-size: 3rem;
         margin-left:40px;
@@ -165,6 +165,16 @@ nav {
 
 .nav-link {
     color: var(--secondary-color);
+    font-size: 25px;
+}
+
+.nav-link:hover {
+    color: var(--secondary-color);
+}
+
+.nav-item {
+    text-align: right;
+    padding-right: 38px;
 }
 
 .navbar-toggler {
